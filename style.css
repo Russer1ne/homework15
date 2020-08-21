@@ -1,0 +1,65 @@
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 2px 8px 2px rgba(141, 150, 178, 0.3);
+  transform: scale(1.05);
+}
+
+.btn_text {
+  margin-right: 10px;
+}
+
+.btn_icon {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+}
+
+.task-03 {
+  max-width: 600px;
+}
+
+.task-03-panel {
+  display: grid;
+  grid-template-columns: 216px auto auto;
+  grid-gap: 10px;
+  border: solid 2px lightblue;
+  border-radius: 1px;
+  padding: 10px;
+}
+
+.task-03-panel > input {
+  border: solid 1px lightblue;
+  border-radius: 1px;
+}
+.task-03-panel > button {
+  background-color: lightblue;
+  border: none;
+}
+
+.task-03-chat {
+  margin-top: 5px;
+  min-height: 600px;
+  max-height: 600px;
+  border: solid 2px lightblue;
+  border-radius: 1px;
+}
